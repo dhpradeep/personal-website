@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Pradip Dhkala is a software engineer from Nepal who specializes in technologies like React and Node.',
     siteUrl: 'https://dhakalpradip.com.np', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/me.jpg', // Path to your image you placed in the 'static' folder
     facebook: 'dhpradeep25',
   },
   plugins: [
