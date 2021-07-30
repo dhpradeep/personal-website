@@ -182,9 +182,8 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Pradip and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2015 and I enjoy to play with html/css and
-              javascript and created a samples pages which taught me a lot about HTML &amp; CSS! and
-              Javascript.
+              interest in computer science started back in 2013 when I was persuing my higher
+              school.
             </p>
 
             <p>
