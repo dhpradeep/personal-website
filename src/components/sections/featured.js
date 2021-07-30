@@ -160,6 +160,7 @@ const StyledProject = styled.li`
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
+    text-align: left;
 
     @media (max-width: 768px) {
       padding: 20px 0;
@@ -246,7 +247,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: var(--gray);
       border-radius: var(--border-radius);
       vertical-align: middle;
 

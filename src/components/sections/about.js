@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
@@ -19,6 +20,21 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
+  div.section-heading-custom {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px dashed #ccc;
+    text-align: center;
+
+    span {
+      font-size: var(--fz-md);
+      position: relative;
+      background: var(--navy);
+      color: var(--slate);
+      top: -12px;
+      padding: 5px;
+    }
+  }
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -61,7 +77,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--gray);
 
     &:hover,
     &:focus {
@@ -114,6 +130,20 @@ const StyledPic = styled.div`
   }
 `;
 
+const SectionBreak = ({ section }) => (
+  <>
+    {section ? (
+      <div className="section-heading-custom">
+        <span>{section}</span>
+      </div>
+    ) : null}
+  </>
+);
+
+SectionBreak.propTypes = {
+  section: PropTypes.string,
+};
+
 const About = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -126,7 +156,22 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const programmingSkills = ['JavaScript (ES6+)', 'React', 'Node.Js', 'Express', 'SQL', 'NoSQL'];
+
+  const awsSkills = [
+    'RDS',
+    'Neptune',
+    'EC2',
+    'ELB',
+    'S3',
+    'IAM',
+    'CloudFormation',
+    'CloudWatch',
+    'ECS',
+    'ECR',
+    'Route 53',
+    'VPC',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,28 +181,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Pradip and I enjoy creating things that live on the internet. My
+              interest in web development started back in 2015 and I enjoy to play with html/css and
+              javascript and created a samples pages which taught me a lot about HTML &amp; CSS! and
+              Javascript.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              My main focus these days is building accessible, and cloud friendly product based on
+              micro-architecture at <a href="https://eversoftgroup.com/">Eversoft</a> for a variety
+              of clients.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
+          <SectionBreak section="Programming" />
           <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            {programmingSkills && programmingSkills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+          <SectionBreak section="AWS" />
+          <ul className="skills-list">
+            {awsSkills && awsSkills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
 
