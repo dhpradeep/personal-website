@@ -68,7 +68,7 @@ const Hero = () => {
         Seva Development
       </a>{' '}
       company as a software engineer and running own Company as well named{' '}
-      <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+      <a href="https://eversoftgroup.com/" target="_blank" rel="noreferrer">
         Eversoft
       </a>{' '}
       .
