@@ -63,7 +63,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">Software Engineer.</h3>;
   const four = (
     <p>
-      I'm a Software Engineer with experience on Different tech stack. And currently working on{' '}
+      I'm a Software Engineer with experience on different tech stacks. And currently working on{' '}
       <a href="https://sevadevelopment.com/" target="_blank" rel="noreferrer">
         Seva Development
       </a>{' '}
