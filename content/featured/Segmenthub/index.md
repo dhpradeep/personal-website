@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Segmenthub is a fun project, where you can create github commit message in every year automatically. And the fun part is it create a commit each year where commit (green) print year number as a 7 segment digit.
+Segmenthub is a fun project, where the fun part of this project is, you can give any year as input and while committing, it will show your given year as the contribution(green dot) in 7 segment digit format.
