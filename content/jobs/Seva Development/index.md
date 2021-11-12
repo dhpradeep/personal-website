@@ -3,11 +3,11 @@ date: '2019-08-07'
 title: 'Software Engineer'
 company: 'Seva Development'
 location: 'Kathmandu, Nepal'
-range: 'August 2019 - Current'
+range: 'August 2019 - September 2021'
 url: 'https://www.sevadevelopment.com/'
 ---
 
-- Project: [Qualiti](https://www.qualiti.ai/) (running)
+- Project: [Qualiti](https://www.qualiti.ai/) (2020/08 - 2021/10)
 - Worked with:
   - NodeJs
   - Angular 10+

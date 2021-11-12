@@ -64,10 +64,10 @@ const Hero = () => {
   const four = (
     <p>
       I'm a Software Engineer with experience on different tech stacks. And currently working on{' '}
-      <a href="https://sevadevelopment.com/" target="_blank" rel="noreferrer">
-        Seva Development
+      <a href="https://workz.com/" target="_blank" rel="noreferrer">
+        Workz Group
       </a>{' '}
-      company as a software engineer and running own Company as well named{' '}
+      company as a software developer and running freelancing group as well named{' '}
       <a href="https://eversoftgroup.com/" target="_blank" rel="noreferrer">
         Eversoft
       </a>{' '}
@@ -76,7 +76,7 @@ const Hero = () => {
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+      Hire Me
     </a>
   );
 

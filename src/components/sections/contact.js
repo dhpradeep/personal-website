@@ -65,7 +65,7 @@ const Contact = () => {
         Say Hello
       </a>
       <div style={{ paddingTop: '10px' }}>OR</div>
-      <div style={{ paddingTop: '5px' }}>Call me at +977-9846751280</div>
+      <div style={{ paddingTop: '5px' }}>Call me at +971-525336684</div>
     </StyledContactSection>
   );
 };

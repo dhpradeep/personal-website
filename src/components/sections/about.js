@@ -156,7 +156,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const programmingSkills = ['JavaScript (ES6+)', 'React', 'Node.Js', 'Express', 'SQL', 'NoSQL'];
+  const programmingSkills = [
+    'JavaScript (ES6+)',
+    'React',
+    'Node.Js',
+    'Express',
+    'SQL',
+    'NoSQL',
+    'Python',
+    'Flask',
+  ];
 
   const awsSkills = [
     'RDS',
@@ -188,8 +197,7 @@ const About = () => {
 
             <p>
               My main focus these days is building accessible, and cloud friendly product based on
-              micro-architecture at <a href="https://eversoftgroup.com/">Eversoft</a> for a variety
-              of clients.
+              micro-architecture.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -208,7 +216,7 @@ const About = () => {
         <StyledPic>
           <div className="wrapper">
             <StaticImage
-              className="img"
+              className="personal_photo"
               src="../../images/me.jpg"
               width={500}
               quality={95}

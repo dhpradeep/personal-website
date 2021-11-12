@@ -7,12 +7,16 @@ module.exports = {
       url: 'https://github.com/dhpradeep',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/dhpradeep25/',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/dhpradeep25/',
+    },
+    {
+      name: 'StackOverflow',
+      url: 'https://stackoverflow.com/users/8653313/pradip-dhakal',
+    },
+    {
+      name: 'Instagram',
+      url: 'https://www.instagram.com/dhpradeep25/',
     },
     {
       name: 'Facebook',

@@ -14,6 +14,7 @@ import {
   IconStar,
   IconTwitter,
   IconFacebook,
+  IconStackOverflow,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -44,6 +45,8 @@ const Icon = ({ name }) => {
       return <IconTwitter />;
     case 'Facebook':
       return <IconFacebook />;
+    case 'StackOverflow':
+      return <IconStackOverflow />;
     default:
       return <IconExternal />;
   }

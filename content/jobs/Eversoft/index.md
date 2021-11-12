@@ -7,7 +7,7 @@ range: 'Jan 2017 - Current'
 url: 'https://www.eversoftgroup.com/'
 ---
 
-- Project: [Babylandmall](https://www.babylandmall.com/) (running)
+- Project: [Babylandmall](https://www.babylandmall.com/)
 - Worked with:
   - NodeJs
   - ReactJs (Next.js)
