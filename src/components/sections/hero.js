@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
@@ -63,15 +64,13 @@ const Hero = () => {
   const three = <h3 className="big-heading">Software Engineer.</h3>;
   const four = (
     <p>
-      I'm a Software Engineer with experience on different tech stacks. And currently working on{' '}
+      I'm a Customer-focused <a href="#">Software Engineer</a> with superior communication skills
+      and expertise in various technical platforms. Understands and meets client and employer needs
+      and develops highly functional, robust and easy-to-use applications. And currently working on{' '}
       <a href="https://workz.com/" target="_blank" rel="noreferrer">
         Workz Group
       </a>{' '}
-      company as a software developer and running freelancing group as well named{' '}
-      <a href="https://eversoftgroup.com/" target="_blank" rel="noreferrer">
-        Eversoft
-      </a>{' '}
-      .
+      company as a software developer.
     </p>
   );
   const five = (

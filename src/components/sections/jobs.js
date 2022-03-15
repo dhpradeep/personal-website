@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useState, useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { CSSTransition } from 'react-transition-group';
@@ -168,6 +169,25 @@ const StyledTabPanel = styled.div`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
   }
+
+  .tag {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 2px;
+    padding: 5px 7px;
+    border: 1px solid var(--lightest-navy);
+    border-radius: var(--border-radius);
+    font-size: var(--fz-md);
+    font-weight: 500;
+    color: #00bcd4;
+
+    &:hover {
+      background-color: var(--light-navy);
+      border-color: var(--light-navy);
+      color: var(--green);
+      cursor: pointer;
+    }
+  }
 `;
 
 const Jobs = () => {
@@ -185,6 +205,7 @@ const Jobs = () => {
               location
               range
               url
+              tags
             }
             html
           }
@@ -279,7 +300,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { url, company, range, location, tags } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -291,18 +312,28 @@ const Jobs = () => {
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}>
                     <h3>
-                      <span>{title}</span>
+                      {/* <span>{title}</span> */}
                       <span className="company">
-                        &nbsp;@&nbsp;
-                        <a href={url} className="inline-link">
+                        <a target="_blank" href={url} className="inline-link" rel="noreferrer">
                           {company}
                         </a>
+                        &nbsp;-&nbsp;
                       </span>
+                      <span>{location}</span>
                     </h3>
 
                     <p className="range">{range}</p>
 
                     <div dangerouslySetInnerHTML={{ __html: html }} />
+                    <hr />
+                    <span>Skills:</span>
+                    <br />
+                    {tags &&
+                      tags.map(tag => (
+                        <span key={tag} className="tag">
+                          {tag}
+                        </span>
+                      ))}
                   </StyledTabPanel>
                 </CSSTransition>
               );

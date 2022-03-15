@@ -3,35 +3,69 @@ date: '2019-08-07'
 title: 'Software Engineer'
 company: 'Seva Development'
 location: 'Kathmandu, Nepal'
-range: 'August 2019 - September 2021'
+range: 'May 2019 - October 2021'
 url: 'https://www.sevadevelopment.com/'
----
-
-- Project: [Qualiti](https://www.qualiti.ai/) (2020/08 - 2021/10)
-- Worked with:
+tags:
+  - React
+  - Python
+  - Data Profiler
+  - Cypress
+  - Javascript
+  - ReactJs
   - NodeJs
-  - Angular 10+
-  - AWS (Cloudformation, Neptune, S3, Lambda, API Gateway, Cloudwatch, ECR, ECS)
-  - Cypress
-  - Jest
-  - Docker/Kubernetes
-  - Typescript
+  - Express
+  - Neptune
+  - Kinesis
+  - EC2
+  - Cloudformation
+  - SMS
+  - ELB
+  - Step Functions
+  - S3
+  - ECR
+  - ECS
+  - RDS
+  - Postgresql
+  - Firebase
+  - Lambda
+  - Cloudwatch
+  - CircleCI
+  - Jenkins
+  - REST API
+  - Microservice Architecture
+  - Clubhouse
+  - Airtable
+  - Agile Methodology
+---
+
+### Software Engineer
+
+_Sep 2020 - Oct 2021_
+
+- Build engine on the back-end to collect the large stream data to Amazon Neptune using tools tinkerpop, gremlin and Node.js.
+- Build the REST APIs which enables the user to interact from UI with backend application which is deployed on AWS EC2 with RDS ( Postgresql Database).
+- Write the Integrations test for the back-end application to verify the application is performing accordingly using tools Cypress and Typescript.
+- Implement different features and solve existing bugs of the application which is based on Node.js and Javascript (React) and also use Python on data filtering and Profiling.
+- worked as a full-stack developer on a Microservice-based architecture application, which is based on AWS and also used different AWS services like Neptune, Kinesis, RDS, EC2, Lambda, S2, ECR and ECS.
+- Coordinated with other engineers to evaluate and improve software interfaces.
 
 ---
 
-- Project: [Testramp](https://www.testramp.com/) (2020/01 - 2020/08)
-- Worked with:
-  - Angular 9
-  - Cypress
-  - Typescript
-  - Html/Css
+### Associate Software Engineer
+
+_Nov 2019 - Sep 2020_
+
+- Worked as a core member and develop a test management tool, which enables users to manage their test cases and execute them.
+- Added new features and solve existing bugs for that application where I got a chance to work in an Agile environment and learn about the tools like Angular, React and Node.js.
 
 ---
 
-- Project: Navigator (2019/08 - 2020/01)
-- Worked with:
-  - SAP
-  - Quality assurance
-  - Automation testing (selenium)
+### Software Engineer Intern
 
----
+_May 2019 - Oct 2019_
+
+- Prepared and submitted reports and other documentation to assist development team members.
+- Wrote technical documentation for new software in development.
+- Learn about the agile methodology and the working culture.
+- Learn about the microarchitecture development
+- Learn the tools like React, Python.
