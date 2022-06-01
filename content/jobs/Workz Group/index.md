@@ -1,6 +1,6 @@
 ---
 date: '2021-10-01'
-title: 'Software Developer'
+title: 'DevOps Engineer'
 company: 'Workz Group'
 location: 'Production City, Dubai UAE'
 range: 'October 2021 - Current'
@@ -25,7 +25,7 @@ tags:
   - REST API
 ---
 
-### Software Developer
+### DevOps Engineer
 
 _Oct 2021 - Current_
 
