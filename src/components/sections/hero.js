@@ -61,16 +61,16 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Pradip Dhakal.</h2>;
-  const three = <h3 className="big-heading">DevOps Engineer.</h3>;
+  const three = <h3 className="big-heading">Software Engineer.</h3>;
   const four = (
     <p>
-      I'm a Customer-focused <a href="#">DevOps Engineer</a> with superior communication skills and
-      expertise in various technical platforms. Understands and meets client and employer needs and
-      develops highly functional, robust and easy-to-use applications. And currently working on{' '}
+      I'm a Customer-focused <a href="#">Software Engineer</a> with superior communication skills
+      and expertise in various technical platforms. Understands and meets client and employer needs
+      and develops highly functional, robust and easy-to-use applications. And currently working on{' '}
       <a href="https://workz.com/" target="_blank" rel="noreferrer">
         Workz Group
       </a>{' '}
-      company as a DevOps engineer.
+      company as a software developer.
     </p>
   );
   const five = (

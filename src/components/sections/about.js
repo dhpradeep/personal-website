@@ -180,7 +180,6 @@ const About = () => {
     'ECR',
     'Route 53',
     'VPC',
-    'EKS',
     'SQS',
   ];
 
