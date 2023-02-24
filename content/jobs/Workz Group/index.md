@@ -3,7 +3,7 @@ date: '2021-10-01'
 title: 'Software Developer'
 company: 'Workz Group'
 location: 'Production City, Dubai UAE'
-range: 'October 2021 - Current'
+range: 'October 2021 - September 2022'
 url: 'https://www.workz.com/'
 tags:
   - ReactJs
@@ -27,7 +27,7 @@ tags:
 
 ### Software Developer
 
-_Oct 2021 - Current_
+_Oct 2021 - September 2022_
 
 >
 

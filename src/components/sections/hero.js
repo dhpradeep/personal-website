@@ -67,10 +67,10 @@ const Hero = () => {
       I'm a Customer-focused <a href="#">Software Engineer</a> with superior communication skills
       and expertise in various technical platforms. Understands and meets client and employer needs
       and develops highly functional, robust and easy-to-use applications. And currently working on{' '}
-      <a href="https://workz.com/" target="_blank" rel="noreferrer">
-        Workz Group
+      <a href="https://sourcewiz.co/" target="_blank" rel="noreferrer">
+        Sourcewiz
       </a>{' '}
-      company as a software developer.
+      company as a software engineer.
     </p>
   );
   const five = (

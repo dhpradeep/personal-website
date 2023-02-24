@@ -165,6 +165,10 @@ const About = () => {
     'NoSQL',
     'Python',
     'Flask',
+    'Algolia',
+    'Docker',
+    'Jenkins',
+    'Shell Script',
   ];
 
   const awsSkills = [
@@ -204,7 +208,7 @@ const About = () => {
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
-          <SectionBreak section="Programming" />
+          <SectionBreak section="Programming & Skills" />
           <ul className="skills-list">
             {programmingSkills && programmingSkills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
