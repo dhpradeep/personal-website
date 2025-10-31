@@ -14,14 +14,6 @@ module.exports = {
       name: 'StackOverflow',
       url: 'https://stackoverflow.com/users/8653313/pradip-dhakal',
     },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/dhpradeep25/',
-    },
-    {
-      name: 'Facebook',
-      url: 'https://www.facebook.com/dhpradeep25/',
-    },
   ],
 
   navLinks: [

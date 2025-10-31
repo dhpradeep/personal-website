@@ -1,71 +1,43 @@
 ---
-date: '2019-08-07'
+date: '2019-11-01'
 title: 'Software Engineer'
 company: 'Seva Development'
 location: 'Kathmandu, Nepal'
-range: 'May 2019 - October 2021'
+range: 'November 2019 - September 2021'
 url: 'https://www.sevadevelopment.com/'
 tags:
-  - React
-  - Python
-  - Data Profiler
-  - Cypress
-  - Javascript
-  - ReactJs
   - NodeJs
-  - Express
+  - React
+  - AWS
   - Neptune
   - Kinesis
+  - Lambda
+  - Cypress
+  - Jmeter
+  - Microservices
+  - Postgresql
+  - TinkerPop
+  - Gremlin
+  - Python
+  - Data Profiling
   - EC2
-  - Cloudformation
-  - SMS
-  - ELB
-  - Step Functions
+  - RDS
   - S3
   - ECR
   - ECS
-  - RDS
-  - Postgresql
-  - Firebase
-  - Lambda
-  - Cloudwatch
-  - CircleCI
-  - Jenkins
-  - REST API
-  - Microservice Architecture
-  - Clubhouse
-  - Airtable
-  - Agile Methodology
+  - Test Management
+  - Full-Stack Development
 ---
 
 ### Software Engineer
 
-_Sep 2020 - Oct 2021_
+_November 2019 - September 2021_
 
-- Build engine on the back-end to collect the large stream data to Amazon Neptune using tools tinkerpop, gremlin and Node.js.
-- Build the REST APIs which enables the user to interact from UI with backend application which is deployed on AWS EC2 with RDS ( Postgresql Database).
-- Write the Integrations test for the back-end application to verify the application is performing accordingly using tools Cypress and Typescript.
-- Implement different features and solve existing bugs of the application which is based on Node.js and Javascript (React) and also use Python on data filtering and Profiling.
-- worked as a full-stack developer on a Microservice-based architecture application, which is based on AWS and also used different AWS services like Neptune, Kinesis, RDS, EC2, Lambda, S2, ECR and ECS.
-- Coordinated with other engineers to evaluate and improve software interfaces.
+>
 
----
-
-### Associate Software Engineer
-
-_Nov 2019 - Sep 2020_
-
-- Worked as a core member and develop a test management tool, which enables users to manage their test cases and execute them.
-- Added new features and solve existing bugs for that application where I got a chance to work in an Agile environment and learn about the tools like Angular, React and Node.js.
-
----
-
-### Software Engineer Intern
-
-_May 2019 - Oct 2019_
-
-- Prepared and submitted reports and other documentation to assist development team members.
-- Wrote technical documentation for new software in development.
-- Learn about the agile methodology and the working culture.
-- Learn about the microarchitecture development
-- Learn the tools like React, Python.
+- Developed a back-end engine using TinkerPop, Gremlin, and Node.js to process large stream data, integrate with Amazon Neptune, and also build individual services for data profiling using Python.
+- Performed integration testing using Cypress and TypeScript to ensure proper application performance.
+- Played a key role as a full-stack developer in a microservice-based architecture deployed on AWS, utilizing Neptune, Kinesis, RDS, EC2, Lambda, S3, ECR, and ECS.
+- Teamed up with a cross-functional group to create a test management tool, streamlining test case management and reducing test case creation time by 50%, thereby improving overall testing effectiveness.
+- Implemented React and Node.js technologies to develop 7+ innovative features and address complex issues, resulting in elevated user experience and overall system performance.
+- Received the Team Collaboration Excellence Award, recognized for exceptional collaboration and contributions among 50+ employees.

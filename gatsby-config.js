@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Pradip Dhakal',
     description:
-      'Pradip Dhkala is a software engineer from Nepal who specializes in technologies like React and Node.',
+      'Pradip Dhakal is a software engineer from Nepal who specializes in technologies like React and Node.',
     siteUrl: 'https://dhakalpradip.com.np', // No trailing slash allowed!
     image: '/me.jpg', // Path to your image you placed in the 'static' folder
     facebook: 'dhpradeep25',

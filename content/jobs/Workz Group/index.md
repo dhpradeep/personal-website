@@ -1,9 +1,9 @@
 ---
-date: '2021-10-01'
-title: 'Software Developer'
+date: '2021-09-01'
+title: 'Software Engineer'
 company: 'Workz Group'
-location: 'Production City, Dubai UAE'
-range: 'October 2021 - September 2022'
+location: 'Dubai, UAE'
+range: 'September 2021 - September 2022'
 url: 'https://www.workz.com/'
 tags:
   - ReactJs
@@ -11,27 +11,32 @@ tags:
   - Flask
   - SQLAlchemy
   - NodeJs
-  - Linux
   - Kubernetes
   - Docker
-  - Docker Compose
-  - Context
+  - GitHub Actions
+  - Cypress
+  - TypeScript
+  - Celery
+  - RabbitMQ
+  - Database Migrations
+  - Caching
+  - JWT
+  - OAuth
+  - Unit Testing
+  - DevOps
+  - Team Management
   - Postgresql
-  - Materialized View
-  - Postgresql Functions
-  - Agile
-  - Micro services
-  - SAAS
-  - REST API
+  - Microservices
 ---
 
-### Software Developer
+### Software Engineer
 
-_Oct 2021 - September 2022_
+_September 2021 - September 2022_
 
 >
 
-- Implement different features and solve existing bugs of the application which is based on Python (Flask) and Javascript (React).
-- Build the DevOps pipeline that runs during the build time and publish the application to different environments and run all the Unit and End-to-End test cases during that time. Kubernetes, Docker, GitHub Actions are used.
-- Implement End-to-End testing for frontend applications using the tool cypress and typescript.
-- Designed and maintained streamlined, reusable and reliable code within distributed cloud environments.
+- Managed a team of 6 professionals, supervised client requirements for implementation, and mentored junior developers to facilitate knowledge sharing within the team.
+- Built a DevOps pipeline for application deployment using Kubernetes, Docker, and GitHub actions achieving a 60% reduction in time spent on manual deployment tasks.
+- Achieved over 90% code coverage for tested functionalities and executed End-to-End testing for frontend applications using Cypress and TypeScript.
+- Enhanced application performance and flexibility through optimized coding practices and architectural improvements, resulting in a significant 30% reduction in response time.
+- Collaborated cross-functionally with designers, QA engineers, and product managers to deliver high-quality software solutions that meet customer requirements, resulting in an exceptional customer satisfaction rating of 4.8 out of 5.

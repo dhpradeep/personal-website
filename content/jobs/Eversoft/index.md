@@ -1,43 +1,36 @@
 ---
-date: '2017-01-01'
-title: 'Software Engineer'
+date: '2017-11-01'
+title: 'Startup Founder'
 company: 'Eversoft'
 location: 'Pokhara, Nepal'
-range: 'Jan 2017 - Sep 2020'
+range: 'November 2017 - November 2019'
 url: 'https://www.eversoftgroup.com/'
 tags:
-  - NodeJs
-  - ReactJs
-  - Redux
-  - Context
-  - Postgresql
-  - EC2
-  - ECR
-  - ECS
-  - Lambda
-  - RDS
-  - Code Build
-  - Python
-  - Django
+  - Startup
+  - Express
+  - ECommerce
+  - Team Management
+  - Microservices
   - Docker
-  - Docker Compose
+  - CircleCI
+  - NodeJs
+  - React
   - Jenkins
-  - Linux
-  - Microservice Architecture
-  - JIRA
-  - Trello
+  - AWS CodeBuild
+  - Client Projects
+  - Software Solutions
 ---
 
-### Software Engineer
+### Startup Founder
 
-_Jan 2017 - Sep 2020_
+_November 2017 - November 2019_
 
 >
 
-- Worked on different projects as the client requested.
-- Introduced agile methodologies and development best practices to division to enhance product development.
-- Build a complete E-Commerce website with a team, where my responsibilities are to manage the team, do the planning, run agile and also write code to enable different functionality using React and Python (Django).
-- Implement the different automation tools such as Jenkins, AWS Code-build and Dockers.
+- Led the successful delivery of over 10+ different client projects, surpassing expectations and achieving a high level of client satisfaction.
+- Led a team in building a comprehensive E-Commerce website using React and Node (Express), ensuring timely delivery and high customer satisfaction.
+- Implemented automation tools, including Jenkins, AWS CodeBuild, and Docker, reducing manual effort by 50% and improving development speed, resulting in faster delivery of software updates.
+- Engaged closely with clients, delivering tailored software solutions that yielded significant cost savings and improved operational efficiency by 3 times.
 
 ---
 
