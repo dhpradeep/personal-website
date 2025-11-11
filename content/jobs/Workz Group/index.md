@@ -31,8 +31,6 @@ tags:
 
 ### Software Engineer
 
-_September 2021 - September 2022_
-
 >
 
 - Managed a team of 6 professionals, supervised client requirements for implementation, and mentored junior developers to facilitate knowledge sharing within the team.

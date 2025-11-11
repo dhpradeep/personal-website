@@ -197,6 +197,7 @@ const About = () => {
     'Google ADK',
     'FAISS',
     'Pinecone',
+    'Qdrant',
     'RAG Pipelines',
     'Vector Search',
     'Prompt Engineering',

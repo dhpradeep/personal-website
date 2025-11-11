@@ -28,8 +28,6 @@ tags:
 
 ### Software Engineer - II
 
-_September 2022 - April 2024_
-
 >
 
 - Played a key role in building different products and features, including a SaaS solution for B2B clients, driving value and success for the organization.

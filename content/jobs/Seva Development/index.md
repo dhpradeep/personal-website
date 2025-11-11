@@ -31,8 +31,6 @@ tags:
 
 ### Software Engineer
 
-_November 2019 - September 2021_
-
 >
 
 - Developed a back-end engine using TinkerPop, Gremlin, and Node.js to process large stream data, integrate with Amazon Neptune, and also build individual services for data profiling using Python.

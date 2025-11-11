@@ -11,6 +11,7 @@ tags:
   - LangChain
   - FAISS
   - Pinecone
+  - Qdrant
   - Google ADK
   - SemanticFlow
   - Guardrails
@@ -30,8 +31,6 @@ tags:
 ---
 
 ### Senior Software Engineer - AI Systems Architect
-
-_May 2024 - Current_
 
 >
 

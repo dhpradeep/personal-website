@@ -23,8 +23,6 @@ tags:
 
 ### Startup Founder
 
-_November 2017 - November 2019_
-
 >
 
 - Led the successful delivery of over 10+ different client projects, surpassing expectations and achieving a high level of client satisfaction.
